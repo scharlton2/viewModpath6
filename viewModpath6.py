@@ -142,7 +142,7 @@ class ModpathReader:
         ncoord = intArray.GetNumberOfTuples()
         size = np.zeros(nlines, dtype=int)
         locator = np.zeros(nlines, dtype=int)
-        pointArray = np.zeros(ncoord + nlines, dtype=np.int64)
+        pointArray = np.zeros(ncoord + nlines, dtype=np.longlong)
         coordinates = np.zeros(3 * ncoord, dtype=float)
         scalarArrayTime = np.zeros(ncoord, dtype=float)
 

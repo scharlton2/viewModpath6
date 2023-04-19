@@ -1,0 +1,6 @@
+name: viewModpath6
+channels:
+  - defaults
+dependencies:
+  - vtk
+prefix: C:\Users\charlton\Anaconda3\envs\viewModpath6
